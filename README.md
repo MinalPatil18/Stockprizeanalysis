@@ -22,11 +22,7 @@ Run the app with:
 bash
 Copy code
 streamlit run app.py
-Then open the app in your browser:
 
-arduino
-Copy code
-http://localhost:8501
 🔑 API Key Setup
 This app requires a Finnhub API key (free).
 
