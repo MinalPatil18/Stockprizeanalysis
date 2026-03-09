@@ -4,7 +4,7 @@ import yfinance as yf
 from datetime import date
 
 # ===== Replace with your Finnhub API key =====
-FINNHUB_API_KEY = "d28sglhr01qle9gsjmrgd28sglhr01qle9gsjms0"
+
 
 def search_tickers(query):
     """Search tickers and companies from Finnhub API"""
@@ -84,3 +84,4 @@ if tickerSymbol:
 
 else:
     st.info("Start typing a company name or ticker to search.")
+
